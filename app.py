@@ -16,6 +16,7 @@ import requests
 from loguru import logger
 import importlib
 from pathlib import Path
+from MindSpider.main import MindSpider
 
 # 导入ReportEngine
 try:
@@ -47,6 +48,8 @@ LOG_DIR.mkdir(exist_ok=True)
 CONFIG_MODULE_NAME = 'config'
 CONFIG_FILE_PATH = Path(__file__).resolve().parent / 'config.py'
 CONFIG_KEYS = [
+    'HOST',
+    'PORT',
     'DB_DIALECT',
     'DB_HOST',
     'DB_PORT',
@@ -220,6 +223,12 @@ def initialize_system_components():
     """启动所有依赖组件（Streamlit 子应用、ForumEngine、ReportEngine）。"""
     logs = []
     errors = []
+    
+    spider = MindSpider()
+    if spider.initialize_database():
+        logger.info("数据库初始化成功")
+    else:
+        logger.error("数据库初始化失败")
 
     try:
         stop_forum_engine()
@@ -545,7 +554,8 @@ def read_process_output(process, app_name):
                             })
                             
         except Exception as e:
-            logger.exception(f"Error reading output for {app_name}: {e}")
+            error_msg = f"Error reading output for {app_name}: {e}"
+            logger.exception(error_msg)
             write_log_to_file(app_name, f"[{datetime.now().strftime('%H:%M:%S')}] {error_msg}")
             break
 
@@ -646,6 +656,14 @@ def stop_streamlit_app(app_name):
     except Exception as e:
         return False, f"停止失败: {str(e)}"
 
+HEALTHCHECK_PATH = "/_stcore/health"
+HEALTHCHECK_PROXIES = {'http': None, 'https': None}
+
+
+def _build_healthcheck_url(port):
+    return f"http://127.0.0.1:{port}{HEALTHCHECK_PATH}"
+
+
 def check_app_status():
     """检查应用状态"""
     for app_name, info in processes.items():
@@ -653,21 +671,24 @@ def check_app_status():
             if info['process'].poll() is None:
                 # 进程仍在运行，检查端口是否可访问
                 try:
-                    response = requests.get(f"http://localhost:{info['port']}", timeout=2)
+                    response = requests.get(
+                        _build_healthcheck_url(info['port']),
+                        timeout=2,
+                        proxies=HEALTHCHECK_PROXIES
+                    )
                     if response.status_code == 200:
                         info['status'] = 'running'
                     else:
                         info['status'] = 'starting'
-                except requests.exceptions.RequestException:
-                    info['status'] = 'starting'
-                except Exception:
+                except Exception as exc:
+                    logger.warning(f"{app_name} 健康检查失败: {exc}")
                     info['status'] = 'starting'
             else:
                 # 进程已结束
                 info['process'] = None
                 info['status'] = 'stopped'
 
-def wait_for_app_startup(app_name, max_wait_time=30):
+def wait_for_app_startup(app_name, max_wait_time=90):
     """等待应用启动完成"""
     import time
     start_time = time.time()
@@ -680,15 +701,19 @@ def wait_for_app_startup(app_name, max_wait_time=30):
             return False, "进程启动失败"
         
         try:
-            response = requests.get(f"http://localhost:{info['port']}", timeout=2)
+            response = requests.get(
+                _build_healthcheck_url(info['port']),
+                timeout=2,
+                proxies=HEALTHCHECK_PROXIES
+            )
             if response.status_code == 200:
                 info['status'] = 'running'
                 return True, "启动成功"
-        except:
-            pass
-        
+        except Exception as exc:
+            logger.warning(f"{app_name} 健康检查失败: {exc}")
+
         time.sleep(1)
-    
+
     return False, "启动超时"
 
 def cleanup_processes():
@@ -1018,8 +1043,11 @@ def handle_status_request():
     })
 
 if __name__ == '__main__':
-    HOST = '0.0.0.0'
-    PORT = 5000
+    # 从配置文件读取 HOST 和 PORT
+    from config import settings
+    HOST = settings.HOST
+    PORT = settings.PORT
+    
     logger.info("等待配置确认，系统将在前端指令后启动组件...")
     logger.info(f"Flask服务器已启动，访问地址: http://{HOST}:{PORT}")
     

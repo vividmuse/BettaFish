@@ -138,7 +138,7 @@ class ReportAgent:
         self.state = ReportState()
         
         # 确保输出目录存在
-        os.makedirs(settings.OUTPUT_DIR, exist_ok=True)
+        os.makedirs(self.config.OUTPUT_DIR, exist_ok=True)
         
         logger.info("Report Agent已初始化")
         logger.info(f"使用LLM: {self.llm_client.get_model_info()}")
@@ -146,11 +146,11 @@ class ReportAgent:
     def _setup_logging(self):
         """设置日志"""
         # 确保日志目录存在
-        log_dir = os.path.dirname(settings.LOG_FILE)
+        log_dir = os.path.dirname(self.config.LOG_FILE)
         os.makedirs(log_dir, exist_ok=True)
         
         # 创建专用的logger，避免与其他模块冲突
-        logger.add(settings.LOG_FILE, level="INFO")
+        logger.add(self.config.LOG_FILE, level="INFO")
         
     def _initialize_file_baseline(self):
         """初始化文件数量基准"""
@@ -164,9 +164,9 @@ class ReportAgent:
     def _initialize_llm(self) -> LLMClient:
         """初始化LLM客户端"""
         return LLMClient(
-            api_key=settings.REPORT_ENGINE_API_KEY,
-            model_name=settings.REPORT_ENGINE_MODEL_NAME,
-            base_url=settings.REPORT_ENGINE_BASE_URL,
+            api_key=self.config.REPORT_ENGINE_API_KEY,
+            model_name=self.config.REPORT_ENGINE_MODEL_NAME,
+            base_url=self.config.REPORT_ENGINE_BASE_URL,
         )
     
     def _initialize_nodes(self):
@@ -190,9 +190,15 @@ class ReportAgent:
             save_report: 是否保存报告到文件
             
         Returns:
-            最终HTML报告内容
+            dict: 包含HTML内容与保存文件信息
         """
         start_time = datetime.now()
+        
+        # 为新的查询重置状态，确保文件命名信息完整
+        self.state = ReportState(query=query)
+        self.state.metadata.query = query
+        self.state.query = query
+        self.state.mark_processing()
         
         logger.info(f"开始生成报告: {query}")
         logger.info(f"输入数据 - 报告数量: {len(reports)}, 论坛日志长度: {len(forum_logs)}")
@@ -205,8 +211,9 @@ class ReportAgent:
             html_report = self._generate_html_report(query, reports, forum_logs, template_result)
             
             # Step 3: 保存报告
+            saved_files = {}
             if save_report:
-                self._save_report(html_report)
+                saved_files = self._save_report(html_report)
             
             # 更新生成时间
             end_time = datetime.now()
@@ -215,7 +222,10 @@ class ReportAgent:
             
             logger.info(f"报告生成完成，耗时: {generation_time:.2f} 秒")
             
-            return html_report
+            return {
+                'html_content': html_report,
+                **saved_files
+            }
             
         except Exception as e:
             logger.exception(f"报告生成过程中发生错误: {str(e)}")
@@ -351,19 +361,32 @@ class ReportAgent:
         query_safe = query_safe.replace(' ', '_')[:30]
         
         filename = f"final_report_{query_safe}_{timestamp}.html"
-        filepath = os.path.join(settings.OUTPUT_DIR, filename)
+        filepath = os.path.join(self.config.OUTPUT_DIR, filename)
         
         # 保存HTML报告
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(html_content)
         
-        logger.info(f"报告已保存到: {filepath}")
+        abs_report_path = os.path.abspath(filepath)
+        rel_report_path = os.path.relpath(abs_report_path, os.getcwd())
+        logger.info(f"报告已保存到: {abs_report_path}")
         
         # 保存状态
         state_filename = f"report_state_{query_safe}_{timestamp}.json"
-        state_filepath = os.path.join(settings.OUTPUT_DIR, state_filename)
+        state_filepath = os.path.join(self.config.OUTPUT_DIR, state_filename)
         self.state.save_to_file(state_filepath)
-        logger.info(f"状态已保存到: {state_filepath}")
+        abs_state_path = os.path.abspath(state_filepath)
+        rel_state_path = os.path.relpath(abs_state_path, os.getcwd())
+        logger.info(f"状态已保存到: {abs_state_path}")
+        
+        return {
+            'report_filename': filename,
+            'report_filepath': abs_report_path,
+            'report_relative_path': rel_report_path,
+            'state_filename': state_filename,
+            'state_filepath': abs_state_path,
+            'state_relative_path': rel_state_path
+        }
     
     def get_progress_summary(self) -> Dict[str, Any]:
         """获取进度摘要"""
