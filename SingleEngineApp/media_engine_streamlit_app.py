@@ -27,7 +27,7 @@ except locale.Error:
 # 添加src目录到Python路径
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
-from MediaEngine import DeepSearchAgent, Settings
+from MediaEngine import DeepSearchAgent, AnspireSearchAgent, Settings
 from config import settings
 from utils.github_issues import error_with_issue_link
 
@@ -101,25 +101,49 @@ def main():
             st.error("请在您的环境变量中设置MEDIA_ENGINE_API_KEY")
             logger.error("请在您的环境变量中设置MEDIA_ENGINE_API_KEY")
             return
-        if not settings.BOCHA_WEB_SEARCH_API_KEY:
-            st.error("请在您的环境变量中设置BOCHA_WEB_SEARCH_API_KEY")
-            logger.error("请在您的环境变量中设置BOCHA_WEB_SEARCH_API_KEY")
-            return
 
         # 自动使用配置文件中的API密钥
         engine_key = settings.MEDIA_ENGINE_API_KEY
         bocha_key = settings.BOCHA_WEB_SEARCH_API_KEY
+        ansire_key = settings.ANSPIRE_API_KEY
 
         # 构建 Settings（pydantic_settings风格，优先大写环境变量）
-        config = Settings(
-            MEDIA_ENGINE_API_KEY=engine_key,
-            MEDIA_ENGINE_BASE_URL=settings.MEDIA_ENGINE_BASE_URL,
-            MEDIA_ENGINE_MODEL_NAME=model_name,
-            BOCHA_WEB_SEARCH_API_KEY=bocha_key,
-            MAX_REFLECTIONS=max_reflections,
-            SEARCH_CONTENT_MAX_LENGTH=max_content_length,
-            OUTPUT_DIR="media_engine_streamlit_reports",
-        )
+        if settings.SEARCH_TOOL_TYPE == "BochaAPI":
+            if not bocha_key:
+                st.error("请在您的环境变量中设置BOCHA_WEB_SEARCH_API_KEY")
+                logger.error("请在您的环境变量中设置BOCHA_WEB_SEARCH_API_KEY")
+                return
+            logger.info("使用Bocha搜索API密钥")
+            config = Settings(
+                MEDIA_ENGINE_API_KEY=engine_key,
+                MEDIA_ENGINE_BASE_URL=settings.MEDIA_ENGINE_BASE_URL,
+                MEDIA_ENGINE_MODEL_NAME=model_name,
+                SEARCH_TOOL_TYPE="BochaAPI",
+                BOCHA_WEB_SEARCH_API_KEY=bocha_key,
+                MAX_REFLECTIONS=max_reflections,
+                SEARCH_CONTENT_MAX_LENGTH=max_content_length,
+                OUTPUT_DIR="media_engine_streamlit_reports",
+            )
+        elif settings.SEARCH_TOOL_TYPE == "AnspireAPI":
+            if not ansire_key:
+                st.error("请在您的环境变量中设置ANSPIRE_API_KEY")
+                logger.error("请在您的环境变量中设置ANSPIRE_API_KEY")
+                return
+            logger.info("使用Anspire搜索API密钥")
+            config = Settings(
+                MEDIA_ENGINE_API_KEY=engine_key,
+                MEDIA_ENGINE_BASE_URL=settings.MEDIA_ENGINE_BASE_URL,
+                MEDIA_ENGINE_MODEL_NAME=model_name,
+                SEARCH_TOOL_TYPE="AnspireAPI",
+                ANSPIRE_API_KEY=ansire_key,
+                MAX_REFLECTIONS=max_reflections,
+                SEARCH_CONTENT_MAX_LENGTH=max_content_length,
+                OUTPUT_DIR="media_engine_streamlit_reports",
+            )
+        else:
+            st.error(f"未知的搜索工具类型: {settings.SEARCH_TOOL_TYPE}")
+            logger.error(f"未知的搜索工具类型: {settings.SEARCH_TOOL_TYPE}")
+            return
 
         # 执行研究
         execute_research(query, config)
@@ -134,7 +158,12 @@ def execute_research(query: str, config: Settings):
 
         # 初始化Agent
         status_text.text("正在初始化Agent...")
-        agent = DeepSearchAgent(config)
+        if config.SEARCH_TOOL_TYPE == "BochaAPI":
+            agent = DeepSearchAgent(config)
+        elif config.SEARCH_TOOL_TYPE == "AnspireAPI":
+            agent = AnspireSearchAgent(config)
+        else:
+            raise ValueError(f"未知的搜索工具类型: {config.SEARCH_TOOL_TYPE}")
         st.session_state.agent = agent
 
         progress_bar.progress(10)
@@ -220,11 +249,23 @@ def display_results(agent: DeepSearchAgent, final_report: str):
 
         if all_searches:
             for i, search in enumerate(all_searches):
-                with st.expander(f"搜索 {i + 1}: {search.query}"):
-                    st.write("**URL:**", search.url)
-                    st.write("**标题:**", search.title)
-                    st.write("**内容预览:**",
-                             search.content[:200] + "..." if len(search.content) > 200 else search.content)
+                query_label = search.query if search.query else "未记录查询"
+                with st.expander(f"搜索 {i + 1}: {query_label}"):
+                    paragraph_title = getattr(search, "paragraph_title", "") or "未标注段落"
+                    search_tool = getattr(search, "search_tool", "") or "未标注工具"
+                    has_result = getattr(search, "has_result", True)
+                    st.write("**段落:**", paragraph_title)
+                    st.write("**使用的工具:**", search_tool)
+                    preview = search.content or ""
+                    if not isinstance(preview, str):
+                        preview = str(preview)
+                    if len(preview) > 200:
+                        preview = preview[:200] + "..."
+                    st.write("**URL:**", search.url or "无")
+                    st.write("**标题:**", search.title or "无")
+                    st.write("**内容预览:**", preview if preview else "无可用内容")
+                    if not has_result:
+                        st.info("本次搜索未返回结果")
                     if search.score:
                         st.write("**相关度评分:**", search.score)
 

@@ -1,21 +1,21 @@
 <div align="center">
 
-<img src="static/image/logo_compressed.png" alt="Weibo Public Opinion Analysis System Logo" width="100%">
+<img src="static/image/logo_compressed.png" alt="BettaFish Logo" width="100%">
 
 <a href="https://trendshift.io/repositories/15286" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15286" alt="666ghj%2FBettaFish | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-<a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
-<a href="https://lioncc.ai/" target="_blank"><img src="./static/image/logo_loincc.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
-<a href="https://share.302.ai/P66Qe3" target="_blank"><img src="./static/image/logo_302ai.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
+<a href="https://inferera.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
+<a href="https://open.anspire.cn/?share_code=3E1FUOUH" target="_blank"><img src="./static/image/logo_anspire.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
+<a href="https://go.apimart.ai/gh-xxbettafish" target="_blank"><img src="./static/image/logo_apimart.png" alt="APIMart Logo" height="40"/></a>
 
-[![GitHub Stars](https://img.shields.io/github/stars/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/stargazers)
-[![GitHub Watchers](https://img.shields.io/github/watchers/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/watchers)
-[![GitHub Forks](https://img.shields.io/github/forks/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/network)
-[![GitHub Issues](https://img.shields.io/github/issues/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/pulls)
+[![GitHub Stars](https://img.shields.io/github/stars/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/stargazers)
+[![GitHub Watchers](https://img.shields.io/github/watchers/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/watchers)
+[![GitHub Forks](https://img.shields.io/github/forks/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/network)
+[![GitHub Issues](https://img.shields.io/github/issues/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/pulls)
 
-[![GitHub License](https://img.shields.io/github/license/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/version-v1.0.0-green.svg?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem)
+[![GitHub License](https://img.shields.io/github/license/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/blob/main/LICENSE)
+[![Version](https://img.shields.io/badge/version-v1.2.1-green.svg?style=flat-square)](https://github.com/666ghj/BettaFish)
 [![Docker](https://img.shields.io/badge/Docker-Build-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/)
 
 
@@ -50,9 +50,11 @@
 
 **始于舆情，而不止于舆情**。“微舆”的目标，是成为驱动一切业务场景的简洁通用的数据分析引擎。
 
-> 举个例子. 你只需简单修改Agent工具集的api参数与prompt，就可以把他变成一个金融领域的市场分析系统
+> 举个例子. 你只需简单修改Agent工具集的api参数与prompt，就可以把它变成一个金融领域的市场分析系统
 >
 > 附一个比较活跃的L站项目讨论帖：https://linux.do/t/topic/1009280
+>
+> 查看L站佬友做的测评 [开源项目(微舆)与manus|minimax|ChatGPT|Perplexity对比](https://linux.do/t/topic/1148040)
 
 <div align="center">
 <img src="static/image/system_schematic.png" alt="banner" width="800">
@@ -62,13 +64,16 @@
 
 ## 🪄 赞助商
 
-LLM模型API赞助：<a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
-
-所罗门博客LionCC.ai；编程拼车codecodex.ai；编程算力VibeCodingAPI.ai：</a><span style="margin-left: 10px"><a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_loincc.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
+LLM模型API赞助：<a href="https://inferera.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
 
 <details>
-<summary>按用量付费的企业级AI资源平台，提供市场上全面的AI模型和API，以及多种在线AI应用：</a><span style="margin-left: 10px"><a href="https://share.302.ai/P66Qe3" target="_blank"><img src="./static/image/logo_302ai.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a></summary>
-<img src="static/image/banner_302ai.jpg" alt="banner">302.AI是一个按用量付费的企业级AI资源平台，提供市场上最新、最全面的AI模型和API，以及多种开箱即用的在线AI应用。
+<summary>AI联网搜索、文件解析及网页内容抓取等智能体核心能力提供商：</a><span style="margin-left: 10px"><a href="https://open.anspire.cn/?share_code=3E1FUOUH" target="_blank"><img src="./static/image/logo_anspire.png" alt="666ghj%2FBettaFish | Trendshift" height="50"/></a></summary>
+安思派开放平台(Anspire Open)是面向智能体时代的领先的基础设施提供商。我们为开发者提供构建强大智能体所需的核心能力栈，现已上线AI联网搜索【多版本，极具竞争力的价格】、文件解析【限免】及网页内容抓取【限免】、云端浏览器自动化（Anspire Browser Agent）【内测】、多轮改写等服务，持续为智能体连接并操作复杂的数字世界提供坚实基础。可无缝集成至Dify、Coze、元器等主流智能体平台。通过透明点数计费体系与模块化设计，为企业提供高效、低成本的定制化支持，加速智能化升级进程。
+</details>
+
+<details>
+<summary>专注 AI 图片/视频生成的低价 API 平台，GPT-Image-2 低至 $0.006/张：&ensp;<a href="https://go.apimart.ai/gh-xxbettafish" target="_blank"><img src="./static/image/logo_apimart.png" alt="APIMart Logo" height="50"/></a></summary>
+感谢 APIMart 赞助了本项目！APIMart 是专注 AI 图片/视频生成的低价 API 平台，GPT-Image-2 低至 $0.006/张，1 美元可出图 160+ 张。图片、视频一套异步 API 通吃，提交任务拿 ID、回调取结果，跑批万张不超时、换模型不改代码。按量付费、无月费，通过<a href="https://go.apimart.ai/gh-xxbettafish" target="_blank">此注册链接</a>注册即可开用。
 </details>
 
 ## 🏗️ 系统架构
@@ -97,107 +102,226 @@ LLM模型API赞助：<a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><i
 | 4 | 策略制定 | 基于初步结果制定分块研究策略 | 各Agent内部决策模块 | - |
 | 5-N | **循环阶段** | **论坛协作 + 深度研究** | **ForumEngine + 所有Agent** | **多轮循环** |
 | 5.1 | 深度研究 | 各Agent基于论坛主持人引导进行专项搜索 | 各Agent + 反思机制 + 论坛引导 | 每轮循环 |
-| 5.2 | 论坛协作 | ForumEngine监控Agent发言并生成主持人总结 | ForumEngine + LLM主持人 | 每轮循环 |
+| 5.2 | 论坛协作 | ForumEngine监控Agent发言并生成主持人引导 | ForumEngine + LLM主持人 | 每轮循环 |
 | 5.3 | 交流融合 | 各Agent根据讨论调整研究方向 | 各Agent + forum_reader工具 | 每轮循环 |
 | N+1 | 结果整合 | Report Agent收集所有分析结果和论坛内容 | Report Agent | - |
-| N+2 | 报告生成 | 动态选择模板和样式，多轮生成最终报告 | Report Agent + 模板引擎 | - |
+| N+2 | IR中间表示 | 动态选择模板和样式，多轮生成元数据，装订为IR中间表示 | Report Agent + 模板引擎 | - |
+| N+3 | 报告生成 | 分块进行质量检测，基于IR渲染成交互式 HTML 报告 | Report Agent + 装订引擎 | - |
 
 ### 项目代码结构树
 
 ```
-Weibo_PublicOpinion_AnalysisSystem/
-├── QueryEngine/                   # 国内外新闻广度搜索Agent
-│   ├── agent.py                   # Agent主逻辑
-│   ├── llms/                      # LLM接口封装
-│   ├── nodes/                     # 处理节点
-│   ├── tools/                     # 搜索工具
-│   ├── utils/                     # 工具函数
-│   └── ...                        # 其他模块
-├── MediaEngine/                   # 强大的多模态理解Agent
-│   ├── agent.py                   # Agent主逻辑
-│   ├── nodes/                     # 处理节点
-│   ├── llms/                      # LLM接口
-│   ├── tools/                     # 搜索工具
-│   ├── utils/                     # 工具函数
-│   └── ...                        # 其他模块
-├── InsightEngine/                 # 私有数据库挖掘Agent
-│   ├── agent.py                   # Agent主逻辑
-│   ├── llms/                      # LLM接口封装
-│   │   └── base.py                # 统一的 OpenAI 兼容客户端
-│   ├── nodes/                     # 处理节点
-│   │   ├── base_node.py           # 基础节点类
-│   │   ├── formatting_node.py     # 格式化节点
-│   │   ├── report_structure_node.py # 报告结构节点
-│   │   ├── search_node.py         # 搜索节点
-│   │   └── summary_node.py        # 总结节点
-│   ├── tools/                     # 数据库查询和分析工具
-│   │   ├── keyword_optimizer.py   # Qwen关键词优化中间件
-│   │   ├── search.py              # 数据库操作工具集
-│   │   └── sentiment_analyzer.py  # 情感分析集成工具
-│   ├── state/                     # 状态管理
-│   │   ├── __init__.py
-│   │   └── state.py               # Agent状态定义
-│   ├── prompts/                   # 提示词模板
-│   │   ├── __init__.py
-│   │   └── prompts.py             # 各类提示词
-│   └── utils/                     # 工具函数
-│       ├── __init__.py
-│       ├── config.py              # 配置管理
-│       └── text_processing.py     # 文本处理工具
-├── ReportEngine/                  # 多轮报告生成Agent
-│   ├── agent.py                   # Agent主逻辑
-│   ├── llms/                      # LLM接口
-│   ├── nodes/                     # 报告生成节点
-│   │   ├── template_selection.py  # 模板选择节点
-│   │   └── html_generation.py     # HTML生成节点
-│   ├── report_template/           # 报告模板库
-│   │   ├── 社会公共热点事件分析.md
-│   │   ├── 商业品牌舆情监测.md
-│   │   └── ...                    # 更多模板
-│   └── flask_interface.py         # Flask API接口
-├── ForumEngine/                   # 论坛引擎简易实现
-│   ├── monitor.py                 # 日志监控和论坛管理
-│   └── llm_host.py                # 论坛主持人LLM模块
-├── MindSpider/                    # 微博爬虫系统
-│   ├── main.py                    # 爬虫主程序
-│   ├── config.py                  # 爬虫配置文件
-│   ├── BroadTopicExtraction/      # 话题提取模块
-│   │   ├── database_manager.py    # 数据库管理器
-│   │   ├── get_today_news.py      # 今日新闻获取
-│   │   ├── main.py                # 话题提取主程序
-│   │   └── topic_extractor.py     # 话题提取器
-│   ├── DeepSentimentCrawling/     # 深度舆情爬取
-│   │   ├── keyword_manager.py     # 关键词管理器
-│   │   ├── main.py                # 深度爬取主程序
-│   │   ├── MediaCrawler/          # 媒体爬虫核心
-│   │   └── platform_crawler.py    # 平台爬虫管理
-│   └── schema/                    # 数据库结构
-│       ├── db_manager.py          # 数据库管理器
-│       ├── init_database.py       # 数据库初始化
-│       └── mindspider_tables.sql  # 数据库表结构
-├── SentimentAnalysisModel/        # 情感分析模型集合
-│   ├── WeiboSentiment_Finetuned/  # 微调BERT/GPT-2模型
-│   ├── WeiboMultilingualSentiment/# 多语言情感分析（推荐）
-│   ├── WeiboSentiment_SmallQwen/  # 小参数Qwen3微调
-│   └── WeiboSentiment_MachineLearning/ # 传统机器学习方法
-├── SingleEngineApp/               # 单独Agent的Streamlit应用
-│   ├── query_engine_streamlit_app.py
-│   ├── media_engine_streamlit_app.py
-│   └── insight_engine_streamlit_app.py
-├── templates/                     # Flask模板
-│   └── index.html                 # 主界面前端
-├── static/                        # 静态资源
-├── logs/                          # 运行日志目录
-├── final_reports/                 # 最终生成的HTML报告文件
-├── utils/                         # 通用工具函数
-│   ├── forum_reader.py            # Agent间论坛通信
-│   └── retry_helper.py            # 网络请求重试机制工具
-├── app.py                         # Flask主应用入口
-├── config.py                      # 全局配置文件
-└── requirements.txt               # Python依赖包清单
+BettaFish/
+├── QueryEngine/                            # 国内外新闻广度搜索Agent
+│   ├── agent.py                            # Agent主逻辑，协调搜索与分析流程
+│   ├── llms/                               # LLM接口封装
+│   ├── nodes/                              # 处理节点：搜索、格式化、总结等
+│   ├── tools/                              # 国内外新闻搜索工具集
+│   ├── utils/                              # 工具函数
+│   ├── state/                              # 状态管理
+│   ├── prompts/                            # 提示词模板
+│   └── ...
+├── MediaEngine/                            # 强大的多模态理解Agent
+│   ├── agent.py                            # Agent主逻辑，处理视频/图片等多模态内容
+│   ├── llms/                               # LLM接口封装
+│   ├── nodes/                              # 处理节点：搜索、格式化、总结等
+│   ├── tools/                              # 多模态搜索工具集
+│   ├── utils/                              # 工具函数
+│   ├── state/                              # 状态管理
+│   ├── prompts/                            # 提示词模板
+│   └── ...
+├── InsightEngine/                          # 私有数据库挖掘Agent
+│   ├── agent.py                            # Agent主逻辑，协调数据库查询与分析
+│   ├── llms/                               # LLM接口封装
+│   │   └── base.py                         # 统一的OpenAI兼容客户端
+│   ├── nodes/                              # 处理节点：搜索、格式化、总结等
+│   │   ├── base_node.py                    # 基础节点类
+│   │   ├── search_node.py                  # 搜索节点
+│   │   ├── formatting_node.py              # 格式化节点
+│   │   ├── report_structure_node.py        # 报告结构节点
+│   │   └── summary_node.py                 # 总结节点
+│   ├── tools/                              # 数据库查询和分析工具集
+│   │   ├── keyword_optimizer.py            # Qwen关键词优化中间件
+│   │   ├── search.py                       # 数据库操作工具集（话题搜索、评论获取等）
+│   │   └── sentiment_analyzer.py           # 情感分析集成工具
+│   ├── utils/                              # 工具函数
+│   │   ├── config.py                       # 配置管理
+│   │   ├── db.py                           # SQLAlchemy异步引擎与只读查询封装
+│   │   └── text_processing.py              # 文本处理工具
+│   ├── state/                              # 状态管理
+│   │   └── state.py                        # Agent状态定义
+│   ├── prompts/                            # 提示词模板
+│   │   └── prompts.py                      # 各类提示词
+│   └── __init__.py
+├── ReportEngine/                           # 多轮报告生成Agent
+│   ├── agent.py                            # 总调度器：模板选择→布局→篇幅→章节→渲染
+│   ├── flask_interface.py                  # Flask/SSE入口，管理任务排队与流式事件
+│   ├── llms/                               # OpenAI兼容LLM封装
+│   │   └── base.py                         # 统一的流式/重试客户端
+│   ├── core/                               # 核心功能：模板解析、章节存储、文档装订
+│   │   ├── template_parser.py              # Markdown模板切片与slug生成
+│   │   ├── chapter_storage.py              # 章节run目录、manifest与raw流写入
+│   │   └── stitcher.py                     # Document IR装订器，补齐锚点/元数据
+│   ├── ir/                                 # 报告中间表示（IR）契约与校验
+│   │   ├── schema.py                       # 块/标记Schema常量定义
+│   │   └── validator.py                    # 章节JSON结构校验器
+│   ├── nodes/                              # 全流程推理节点
+│   │   ├── base_node.py                    # 节点基类+日志/状态钩子
+│   │   ├── template_selection_node.py      # 模板候选收集与LLM筛选
+│   │   ├── document_layout_node.py         # 标题/目录/主题设计
+│   │   ├── word_budget_node.py             # 篇幅规划与章节指令生成
+│   │   └── chapter_generation_node.py      # 章节级JSON生成+校验
+│   ├── prompts/                            # 提示词库与Schema说明
+│   │   └── prompts.py                      # 模板选择/布局/篇幅/章节提示词
+│   ├── renderers/                          # IR渲染器
+│   │   ├── html_renderer.py                # Document IR→交互式HTML
+│   │   ├── pdf_renderer.py                 # HTML→PDF导出（WeasyPrint）
+│   │   ├── pdf_layout_optimizer.py         # PDF布局优化器
+│   │   └── chart_to_svg.py                 # 图表转SVG工具
+│   ├── state/                              # 任务/元数据状态模型
+│   │   └── state.py                        # ReportState与序列化工具
+│   ├── utils/                              # 配置与辅助工具
+│   │   ├── config.py                       # Pydantic Settings与打印助手
+│   │   ├── dependency_check.py             # 依赖检查工具
+│   │   ├── json_parser.py                  # JSON解析工具
+│   │   ├── chart_validator.py              # 图表校验工具
+│   │   └── chart_repair_api.py             # 图表修复API
+│   ├── report_template/                    # Markdown模板库
+│   │   ├── 企业品牌声誉分析报告.md
+│   │   └── ...
+│   └── __init__.py
+├── ForumEngine/                            # 论坛引擎：Agent协作机制
+│   ├── monitor.py                          # 日志监控和论坛管理核心
+│   ├── llm_host.py                         # 论坛主持人LLM模块
+│   └── __init__.py
+├── MindSpider/                             # 社交媒体爬虫系统
+│   ├── main.py                             # 爬虫主程序入口
+│   ├── config.py                           # 爬虫配置文件
+│   ├── BroadTopicExtraction/               # 话题提取模块
+│   │   ├── main.py                         # 话题提取主程序
+│   │   ├── database_manager.py             # 数据库管理器
+│   │   ├── get_today_news.py               # 今日新闻获取
+│   │   └── topic_extractor.py              # 话题提取器
+│   ├── DeepSentimentCrawling/              # 深度舆情爬取模块
+│   │   ├── main.py                         # 深度爬取主程序
+│   │   ├── keyword_manager.py              # 关键词管理器
+│   │   ├── platform_crawler.py             # 平台爬虫管理
+│   │   └── MediaCrawler/                   # 社媒爬虫核心
+│   │       ├── main.py
+│   │       ├── config/                     # 各平台配置
+│   │       ├── media_platform/             # 各平台爬虫实现
+│   │       └── ...
+│   └── schema/                             # 数据库结构定义
+│       ├── db_manager.py                   # 数据库管理器
+│       ├── init_database.py                # 数据库初始化脚本
+│       ├── mindspider_tables.sql           # 数据库表结构SQL
+│       ├── models_bigdata.py               # 大规模媒体舆情表的SQLAlchemy映射
+│       └── models_sa.py                    # DailyTopic/Task等扩展表ORM模型
+├── SentimentAnalysisModel/                 # 情感分析模型集合
+│   ├── WeiboSentiment_Finetuned/           # 微调BERT/GPT-2模型
+│   │   ├── BertChinese-Lora/               # BERT中文LoRA微调
+│   │   │   ├── train.py
+│   │   │   ├── predict.py
+│   │   │   └── ...
+│   │   └── GPT2-Lora/                      # GPT-2 LoRA微调
+│   │       ├── train.py
+│   │       ├── predict.py
+│   │       └── ...
+│   ├── WeiboMultilingualSentiment/         # 多语言情感分析
+│   │   ├── train.py
+│   │   ├── predict.py
+│   │   └── ...
+│   ├── WeiboSentiment_SmallQwen/           # 小参数Qwen3微调
+│   │   ├── train.py
+│   │   ├── predict_universal.py
+│   │   └── ...
+│   └── WeiboSentiment_MachineLearning/     # 传统机器学习方法
+│       ├── train.py
+│       ├── predict.py
+│       └── ...
+├── SingleEngineApp/                        # 单独Agent的Streamlit应用
+│   ├── query_engine_streamlit_app.py       # QueryEngine独立应用
+│   ├── media_engine_streamlit_app.py       # MediaEngine独立应用
+│   └── insight_engine_streamlit_app.py     # InsightEngine独立应用
+├── query_engine_streamlit_reports/         # QueryEngine单应用运行输出
+├── media_engine_streamlit_reports/         # MediaEngine单应用运行输出
+├── insight_engine_streamlit_reports/       # InsightEngine单应用运行输出
+├── templates/                              # Flask前端模板
+│   └── index.html                          # 主界面HTML
+├── static/                                 # 静态资源
+│   ├── image/                              # 图片资源
+│   │   └── ...
+│   ├── Partial README for PDF Exporting/   # PDF导出依赖配置说明
+│   └── v2_report_example/                  # 报告渲染示例
+│       └── report_all_blocks_demo/         # 全块类型演示（HTML/PDF/MD）
+├── logs/                                   # 运行日志目录
+├── final_reports/                          # 最终生成的报告文件
+│   ├── ir/                                 # 报告IR JSON文件
+│   └── *.html                              # 最终HTML报告
+├── utils/                                  # 通用工具函数
+│   ├── forum_reader.py                     # Agent间论坛通信工具
+│   ├── github_issues.py                    # 统一生成GitHub Issue链接与错误提示
+│   └── retry_helper.py                     # 网络请求重试机制工具
+├── tests/                                  # 单元测试与集成测试
+│   ├── run_tests.py                        # pytest入口脚本
+│   ├── test_monitor.py                     # ForumEngine监控单元测试
+│   ├── test_report_engine_sanitization.py  # ReportEngine安全性测试
+│   └── ...
+├── app.py                                  # Flask主应用入口
+├── config.py                               # 全局配置文件
+├── .env.example                            # 环境变量示例文件
+├── docker-compose.yml                      # Docker多服务编排配置
+├── Dockerfile                              # Docker镜像构建文件
+├── requirements.txt                        # Python依赖包清单
+├── regenerate_latest_html.py               # 使用最新章节重装订并渲染HTML
+├── regenerate_latest_md.py                 # 使用最新章节重装订并渲染Markdown
+├── regenerate_latest_pdf.py                # PDF重新生成工具脚本
+├── report_engine_only.py                   # Report Engine命令行版本
+├── README.md                               # 中文说明文档
+├── README-EN.md                            # 英文说明文档
+├── CONTRIBUTING.md                         # 中文贡献指南
+├── CONTRIBUTING-EN.md                      # 英文贡献指南
+└── LICENSE                                 # GPL-2.0开源许可证
 ```
 
-## 🚀 快速开始
+## 🚀 快速开始（Docker）
+
+### 1. 启动项目
+
+复制一份 `.env.example` 文件，命名为 `.env` ，并按需配置 `.env` 文件中的环境变量
+
+执行以下命令在后台启动所有服务：
+
+```bash
+docker compose up -d
+```
+
+> **注：镜像拉取速度慢**，在原 `docker-compose.yml` 文件中，我们已经通过**注释**的方式提供了备用镜像地址供您替换
+
+### 2. 配置说明
+
+#### 数据库配置（PostgreSQL）
+
+请按照以下参数配置数据库连接信息，也支持Mysql可自行修改：
+
+| 配置项 | 填写值 | 说明 |
+| :--- | :--- | :--- |
+| `DB_HOST` | `db` | 数据库服务名称 (对应 `docker-compose.yml` 中的服务名) |
+| `DB_PORT` | `5432` | 默认 PostgreSQL 端口 |
+| `DB_USER` | `bettafish` | 数据库用户名 |
+| `DB_PASSWORD` | `bettafish` | 数据库密码 |
+| `DB_NAME` | `bettafish` | 数据库名称 |
+| **其他** | **保持默认** | 数据库连接池等其他参数请保持默认设置。 |
+
+#### 大模型配置
+
+> 我们所有 LLM 调用使用 OpenAI 的 API 接口标准
+
+在完成数据库配置后，请正常配置**所有大模型相关的参数**，确保系统能够连接到您选择的大模型服务。
+
+完成上述所有配置并保存后，系统即可正常运行。
+
+## 🔧 源码启动指南
 
 > 如果你是初次学习一个Agent系统的搭建，可以从一个非常简单的demo开始：[Deep Search Agent Demo](https://github.com/666ghj/DeepSearchAgent-Demo)
 
@@ -206,7 +330,7 @@ Weibo_PublicOpinion_AnalysisSystem/
 - **操作系统**: Windows、Linux、MacOS
 - **Python版本**: 3.9+
 - **Conda**: Anaconda或Miniconda
-- **数据库**: MySQL（可选择我们的云数据库服务）
+- **数据库**: PostgreSQL（推荐）或MySQL
 - **内存**: 建议2GB以上
 
 ### 1. 创建环境
@@ -226,7 +350,13 @@ conda activate your_conda_name
 uv venv --python 3.11 # 创建3.11环境
 ```
 
-### 2. 安装依赖包
+### 2. 安装 PDF 导出所需系统依赖（可选）
+
+这部分有详细的配置说明：[配置所需依赖](./static/Partial%20README%20for%20PDF%20Exporting/README.md)
+
+### 3. 安装依赖包
+
+> 如果跳过了步骤2，weasyprint库可能无法安装，PDF功能可能无法正常使用。
 
 ```bash
 # 基础依赖安装
@@ -234,75 +364,56 @@ pip install -r requirements.txt
 
 # uv版本命令（更快速安装）
 uv pip install -r requirements.txt
-# 如果不想使用本地情感分析模型（算力需求很小，默认安装cpu版本），可以将该文件中的“机器学习”部分注释掉再执行指令
+# 如果不想使用本地情感分析模型（算力需求很小，默认安装cpu版本），可以将该文件中的"机器学习"部分注释掉再执行指令
 ```
 
-### 3. 安装Playwright浏览器驱动
+### 4. 安装Playwright浏览器驱动
 
 ```bash
 # 安装浏览器驱动（用于爬虫功能）
 playwright install chromium
 ```
 
-### 4. 配置系统
+### 5. 配置LLM与数据库
 
-#### 4.1 配置API密钥
-
-复制一份 项目根目录 `.env.example` 文件，命名为 `.env`
+复制一份项目根目录 `.env.example` 文件，命名为 `.env`
 
 编辑 `.env` 文件，填入您的API密钥（您也可以选择自己的模型、搜索代理，详情见根目录.env.example文件内或根目录config.py中的说明）：
 
-```python
-# MySQL数据库配置
-DB_HOST = "localhost"
-DB_PORT = 3306
-DB_USER = "your_username"
-DB_PASSWORD = "your_password"
-DB_NAME = "your_db_name"
-DB_CHARSET = "utf8mb4"
+```bash
+# ====================== 数据库配置 ======================
+# 数据库主机，例如localhost 或 127.0.0.1
+DB_HOST=your_db_host
+# 数据库端口号，postgresql默认为5432，mysql默认为3306
+DB_PORT=5432
+# 数据库用户名
+DB_USER=your_db_user
+# 数据库密码
+DB_PASSWORD=your_db_password
+# 数据库名称
+DB_NAME=your_db_name
+# 数据库字符集，推荐utf8mb4，兼容emoji
+DB_CHARSET=utf8mb4
+# 数据库类型postgresql或mysql
+DB_DIALECT=postgresql
+# 数据库不需要初始化，执行app.py时会自动检测
 
-# LLM配置
+# ====================== LLM配置 ======================
 # 您可以更改每个部分LLM使用的API，只要兼容OpenAI请求格式都可以
+# 配置文件内部给了每一个Agent的推荐LLM，初次部署请先参考推荐设置
 
 # Insight Agent
-INSIGHT_ENGINE_API_KEY = "your_api_key"
-INSIGHT_ENGINE_BASE_URL = "https://api.moonshot.cn/v1"
-INSIGHT_ENGINE_MODEL_NAME = "kimi-k2-0711-preview"
+INSIGHT_ENGINE_API_KEY=
+INSIGHT_ENGINE_BASE_URL=
+INSIGHT_ENGINE_MODEL_NAME=
+
 # Media Agent
 ...
 ```
-推荐LLM API供应商：[推理时代](https://aihubmix.com/?aff=8Ds9)
 
-#### 4.2 数据库初始化
+### 6. 启动系统
 
-**选择1：使用本地数据库**
-
-> ~~MindSpider爬虫系统跟舆情系统是各自独立的，所以需要再去`MindSpider\config.py`配置一下，复制`MindSpider`文件夹下的 `config.py.example` 文件，命名为 `config.py`~~  
-现版本已更改为基于环境变量配置，请复制项目根目录.env.example文件为.env文件，并在其中填写各项配置
-```bash
-# 本地MySQL数据库初始化
-cd MindSpider
-# 项目初始化
-python main.py --setup
-
-```
-
-**选择2：使用云数据库服务（推荐）**
-
-我们提供便捷的云数据库服务，包含日均10万+真实舆情数据，目前**免费申请**！
-
-- 真实舆情数据，实时更新
-- 多维度标签分类
-- 高可用云端服务
-- 专业技术支持
-
-**联系我们申请免费云数据库访问：📧 670939375@qq.com**
-
-> 为进行数据合规性审查与服务升级，云数据库自2025年10月1日起暂停接收新的使用申请
-
-### 5. 启动系统
-
-#### 5.1 完整系统启动（推荐）
+#### 6.1 完整系统启动（推荐）
 
 ```bash
 # 在项目根目录下，激活conda环境
@@ -323,13 +434,11 @@ python app.py
 
 > 注1：一次运行终止后，streamlit app可能结束异常仍然占用端口，此时搜索占用端口的进程kill掉即可
 
-> 注2：数据爬取需要单独操作，见5.3指引
-
-> 注3：如果服务器远程部署出现页面显示问题，见[PR#45](https://github.com/666ghj/BettaFish/pull/45)
+> 注2：数据爬取需要单独操作，见6.3指引
 
 访问 http://localhost:5000 即可使用完整系统
 
-#### 5.2 单独启动某个Agent
+#### 6.2 单独启动某个Agent
 
 ```bash
 # 启动QueryEngine
@@ -342,12 +451,12 @@ streamlit run SingleEngineApp/media_engine_streamlit_app.py --server.port 8502
 streamlit run SingleEngineApp/insight_engine_streamlit_app.py --server.port 8501
 ```
 
-#### 5.3 爬虫系统单独使用
+#### 6.3 爬虫系统单独使用
 
 这部分有详细的配置文档：[MindSpider使用说明](./MindSpider/README.md)
 
 <div align="center">
-<img src="MindSpider\img\example.png" alt="banner" width="600">
+<img src="MindSpider/img/example.png" alt="banner" width="600">
 
 MindSpider 运行示例
 </div>
@@ -371,6 +480,53 @@ python main.py --broad-topic --date 2024-01-20
 # 仅运行深度爬取
 python main.py --deep-sentiment --platforms xhs dy wb
 ```
+
+#### 6.4 命令行报告生成工具
+
+该工具会跳过三个分析引擎的运行阶段，直接读取它们的最新日志文件，并在无需 Web 界面的情况下生成综合报告（同时省略文件增量校验步骤），默认会在 PDF 之后自动生成 Markdown（可用参数关闭）。通常用于对报告生成结果不满意、需要快速重试的场景，或在调试 Report Engine 时启用。
+
+```bash
+# 基本使用（自动从文件名提取主题）
+python report_engine_only.py
+
+# 指定报告主题
+python report_engine_only.py --query "土木工程行业分析"
+
+# 跳过PDF生成（即使系统支持）
+python report_engine_only.py --skip-pdf
+
+# 跳过Markdown生成
+python report_engine_only.py --skip-markdown
+
+# 显示详细日志
+python report_engine_only.py --verbose
+
+# 查看帮助信息
+python report_engine_only.py --help
+```
+
+**功能说明：**
+
+1. **自动检查依赖**：程序会自动检查PDF生成所需的系统依赖，如果缺失会给出安装提示
+2. **获取最新文件**：自动从三个引擎目录（`insight_engine_streamlit_reports`、`media_engine_streamlit_reports`、`query_engine_streamlit_reports`）获取最新的分析报告
+3. **文件确认**：显示所有选择的文件名、路径和修改时间，等待用户确认（默认输入 `y` 继续，输入 `n` 退出）
+4. **直接生成报告**：跳过文件增加审核程序，直接调用Report Engine生成综合报告
+5. **自动保存文件**：
+   - HTML报告保存到 `final_reports/` 目录
+   - PDF报告（如果有依赖）保存到 `final_reports/pdf/` 目录
+   - Markdown报告（可用 `--skip-markdown` 关闭）保存到 `final_reports/md/` 目录
+   - 文件命名格式：`final_report_{主题}_{时间戳}.html/pdf/md`
+
+**注意事项：**
+
+- 确保三个引擎目录中至少有一个包含`.md`报告文件
+- 命令行工具与Web界面相互独立，不会相互影响
+- PDF生成需要安装系统依赖，详见上文"安装 PDF 导出所需系统依赖"部分
+
+**快速重渲染最新结果：**
+
+- `regenerate_latest_html.py` / `regenerate_latest_md.py`：从 `CHAPTER_OUTPUT_DIR` 中最新一次运行的章节 JSON 重装订 Document IR，并直接渲染 HTML 或 Markdown。
+- `regenerate_latest_pdf.py`：读取 `final_reports/ir` 里最新的 IR，使用 SVG 矢量图表重新导出 PDF。
 
 ## ⚙️ 高级配置（已过时，已经统一为项目根目录.env文件管理，其他子agent自动继承根目录配置）
 
@@ -413,17 +569,17 @@ SENTIMENT_CONFIG = {
 
 ### 接入不同的LLM模型
 
-支持任意openAI调用格式的LLM提供商，只需要在/config.py中填写对应的KEY、BASE_URL、MODEL_NAME即可。
+支持任意OpenAI调用格式的LLM提供商，只需要在/config.py中填写对应的KEY、BASE_URL、MODEL_NAME即可。
 
 > 什么是openAI调用格式？下面提供一个简单的例子：
 >```python
 >from openai import OpenAI
 >
 >client = OpenAI(api_key="your_api_key", 
->                base_url="https://api.siliconflow.cn/v1")
+>                base_url="https://inferera.com/v1")
 >
 >response = client.chat.completions.create(
->    model="Qwen/Qwen2.5-72B-Instruct",
+>    model="gpt-4o-mini",
 >    messages=[
 >        {'role': 'user', 
 >         'content': "推理模型会给市场带来哪些新的机会"}
@@ -544,30 +700,17 @@ class DeepSearchAgent:
 
 我们欢迎所有形式的贡献！
 
-### 如何贡献
-
-1. **Fork项目**到您的GitHub账号
-2. **创建Feature分支**：`git checkout -b feature/AmazingFeature`
-3. **提交更改**：`git commit -m 'Add some AmazingFeature'`
-4. **推送到分支**：`git push origin feature/AmazingFeature`
-5. **开启Pull Request**
-
-### 开发规范
-
-- 代码遵循PEP8规范
-- 提交信息使用清晰的中英文描述
-- 新功能需要包含相应的测试用例
-- 更新相关文档
+**请阅读以下贡献指南：**  
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## 🦖 下一步开发计划
 
-现在系统只完成了"三板斧"中的前两步，即：输入要求->详细分析，还缺少一步预测，直接将他继续交给LLM是不具有说服力的。
+现在系统完成了最后一步预测！访问查看【MiroFish-预测万物】：https://github.com/666ghj/MiroFish
 
 <div align="center">
+<img src="static/image/MiroFish_logo_compressed.jpeg" alt="banner" width="800">
 <img src="static/image/banner_compressed.png" alt="banner" width="800">
 </div>
-
-目前我们经过很长一段时间的爬取收集，拥有了大量全网话题热度随时间、爆点等的变化趋势热度数据，已经具备了可以开发预测模型的条件。我们团队将运用时序模型、图神经网络、多模态融合等预测模型技术储备于此，实现真正基于数据驱动的舆情预测功能。
 
 ## ⚠️ 免责声明
 
@@ -609,13 +752,15 @@ class DeepSearchAgent:
 
 ### 获取帮助
 
-- **项目主页**：[GitHub仓库](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem)
-- **问题反馈**：[Issues页面](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/issues)
-- **功能建议**：[Discussions页面](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/discussions)
+常见问题解答：https://github.com/666ghj/BettaFish/issues/700
+
+- **项目主页**：[GitHub仓库](https://github.com/666ghj/BettaFish)
+- **问题反馈**：[Issues页面](https://github.com/666ghj/BettaFish/issues)
+- **功能建议**：[Discussions页面](https://github.com/666ghj/BettaFish/discussions)
 
 ### 联系方式
 
-- 📧 **邮箱**：670939375@qq.com
+- 📧 **邮箱**：baifu.guohj@gmail.com
 
 ### 商务合作
 
@@ -628,15 +773,22 @@ class DeepSearchAgent:
 
 感谢以下优秀的贡献者们：
 
-[![Contributors](https://contrib.rocks/image?repo=666ghj/Weibo_PublicOpinion_AnalysisSystem)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=666ghj/BettaFish)](https://github.com/666ghj/BettaFish/graphs/contributors)
+
+## 🌟 加入官方交流群
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=欢迎加入我们的技术交流QQ群！&fontSize=40&fontAlignY=35&desc=扫描下方二维码加入群聊&descAlignY=55" alt="欢迎加入我们的技术交流QQ群！" style="width:60%; max-width:900px; display:block; margin:0 auto;">
+  <img src="static/image/QQ_Light_Horizenal.png" alt="BettaFish 技术交流群二维码" style="width:60%; max-width:360px; display:block; margin:20px auto 0;">
+</div>
 
 ## 📈 项目统计
 
-<a href="https://www.star-history.com/#666ghj/BettaFish&type=date&legend=top-left">
+<a href="https://github.com/666ghj/BettaFish">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=666ghj/BettaFish&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=666ghj/BettaFish&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=666ghj/BettaFish&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="static/image/star-history-dark.svg" />
+   <source media="(prefers-color-scheme: light)" srcset="static/image/star-history-light.svg" />
+   <img alt="BettaFish Star History Chart" src="static/image/star-history-light.svg" />
  </picture>
 </a>
 

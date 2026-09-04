@@ -1,21 +1,21 @@
 <div align="center">
 
-<img src="static/image/logo_compressed.png" alt="Weibo Public Opinion Analysis System Logo" width="100%">
+<img src="static/image/logo_compressed.png" alt="BettaFish Logo" width="100%">
 
 <a href="https://trendshift.io/repositories/15286" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15286" alt="666ghj%2FBettaFish | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-<a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
-<a href="https://lioncc.ai/" target="_blank"><img src="./static/image/logo_loincc.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
-<a href="https://share.302.ai/P66Qe3" target="_blank"><img src="./static/image/logo_302ai.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
+<a href="https://inferera.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
+<a href="https://open.anspire.cn/?share_code=3E1FUOUH" target="_blank"><img src="./static/image/logo_anspire.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
+<a href="https://go.apimart.ai/gh-xxbettafish" target="_blank"><img src="./static/image/logo_apimart.png" alt="APIMart Logo" height="40"/></a>
 
-[![GitHub Stars](https://img.shields.io/github/stars/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/stargazers)
-[![GitHub Watchers](https://img.shields.io/github/watchers/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/watchers)
-[![GitHub Forks](https://img.shields.io/github/forks/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/network)
-[![GitHub Issues](https://img.shields.io/github/issues/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/pulls)
+[![GitHub Stars](https://img.shields.io/github/stars/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/stargazers)
+[![GitHub Watchers](https://img.shields.io/github/watchers/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/watchers)
+[![GitHub Forks](https://img.shields.io/github/forks/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/network)
+[![GitHub Issues](https://img.shields.io/github/issues/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/pulls)
 
-[![GitHub License](https://img.shields.io/github/license/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/version-v1.0.0-green.svg?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem)
+[![GitHub License](https://img.shields.io/github/license/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/blob/main/LICENSE)
+[![Version](https://img.shields.io/badge/version-v1.2.1-green.svg?style=flat-square)](https://github.com/666ghj/BettaFish)
 [![Docker](https://img.shields.io/badge/Docker-Build-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/)
 
 
@@ -52,6 +52,8 @@ Beyond just report quality, compared to similar products, we have 🚀 six major
 > For example, you only need to simply modify the API parameters and prompts of the Agent toolset to transform it into a financial market analysis system.
 >
 > Here's a relatively active Linux.do project discussion thread: https://linux.do/t/topic/1009280
+>
+> Check out the comparison by a Linux.do fellow: [Open Source Project (BettaFish) vs manus|minimax|ChatGPT Comparison](https://linux.do/t/topic/1148040)
 
 <div align="center">
 <img src="static/image/system_schematic.png" alt="banner" width="800">
@@ -61,14 +63,16 @@ Say goodbye to traditional data dashboards. In "WeiYu", everything starts with a
 
 ## 🪄 Sponsors
 
-LLM Model API Sponsor: <a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
-
-Solomon Blog LionCC.ai; Programming Carpool codecodex.ai; Programming Computing Power VibeCodingAPI.ai: <span style="margin-left: 10px"><a href="https://lioncc.ai/" target="_blank"><img src="./static/image/logo_loincc.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a></span>
+LLM Model API Sponsor: <a href="https://inferera.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
 
 <details>
-<summary>Pay-as-you-go enterprise-grade AI resource platform offering a comprehensive set of AI models and APIs, plus multiple ready-to-use online AI apps: <span style="margin-left: 10px"><a href="https://share.302.ai/P66Qe3" target="_blank"><img src="./static/image/logo_302ai.png" alt="302.ai" height="40"/></a></span></summary>
-<img src="static/image/banner_302ai.jpg" alt="banner">
-302.AI is a pay-as-you-go enterprise AI resource hub that offers the latest and most comprehensive AI models and APIs on the market, along with a variety of ready-to-use online AI applications.
+<summary>Provider of core agent capabilities including AI web search, file parsing, and web content scraping: <span style="margin-left: 10px"><a href="https://open.anspire.cn/?share_code=3E1FUOUH" target="_blank"><img src="./static/image/logo_anspire.png" alt="666ghj%2FBettaFish | Trendshift" height="50"/></a></span></summary>
+Anspire Open is a leading infrastructure provider for the agent era. We offer developers the core capability stack needed to build powerful agents. Currently available services include AI web search (multiple versions, highly competitive pricing), file parsing (limited-time free), web content scraping (limited-time free), cloud browser automation (Anspire Browser Agent, in beta), multi-turn rewriting, and more. We continue to provide a solid foundation for agents to connect and operate in complex digital worlds. Seamlessly integrates with mainstream agent platforms such as Dify, Coze, and Yuanqi. Through a transparent credit-based billing system and modular design, we provide enterprises with efficient, low-cost customized support to accelerate intelligent transformation.
+</details>
+
+<details>
+<summary>A low-cost API platform for AI image and video generation, with GPT-Image-2 from $0.006/image:&ensp;<a href="https://go.apimart.ai/gh-xxbettafish" target="_blank"><img src="./static/image/logo_apimart.png" alt="APIMart Logo" height="50"/></a></summary>
+Thanks to APIMart for sponsoring this project! APIMart is a low-cost API platform for AI image &amp; video generation — GPT-Image-2 from $0.006/image, 160+ images per dollar. One async API covers both image and video: submit a task, get an ID, fetch results via polling or callback. Batch tens of thousands of images without timeouts, switch models without changing code. Pay-as-you-go with no monthly fee — <a href="https://go.apimart.ai/gh-xxbettafish" target="_blank">sign up here</a> to get started.
 </details>
 
 ## 🏗️ System Architecture
@@ -97,107 +101,222 @@ Solomon Blog LionCC.ai; Programming Carpool codecodex.ai; Programming Computing 
 | 4 | Strategy Formulation | Develop segmented research strategies based on preliminary results | Internal Decision Modules of Each Agent | - |
 | 5-N | **Iterative Phase** | **Forum Collaboration + In-depth Research** | **ForumEngine + All Agents** | **Multi-round cycles** |
 | 5.1 | In-depth Research | Each Agent conducts specialized search guided by forum host | Each Agent + Reflection Mechanisms + Forum Guidance | Each cycle |
-| 5.2 | Forum Collaboration | ForumEngine monitors Agent communications and generates host summaries | ForumEngine + LLM Host | Each cycle |
+| 5.2 | Forum Collaboration | ForumEngine monitors Agent communications and generates host guidance | ForumEngine + LLM Host | Each cycle |
 | 5.3 | Communication Integration | Each Agent adjusts research directions based on discussions | Each Agent + forum_reader tool | Each cycle |
 | N+1 | Result Integration | Report Agent collects all analysis results and forum content | Report Agent | - |
-| N+2 | Report Generation | Dynamically select templates and styles, generate final reports through multiple rounds | Report Agent + Template Engine | - |
+| N+2 | IR Intermediate Representation | Dynamically select templates and styles, generate metadata through multiple rounds, assemble into IR intermediate representation | Report Agent + Template Engine | - |
+| N+3 | Report Generation | Perform quality checks on chunks, render into interactive HTML report based on IR | Report Agent + Stitching Engine | - |
 
 ### Project Code Structure Tree
 
 ```
-Weibo_PublicOpinion_AnalysisSystem/
-├── QueryEngine/                   # Domestic and international news breadth search Agent
-│   ├── agent.py                   # Agent main logic
-│   ├── llms/                      # LLM interface wrapper
-│   ├── nodes/                     # Processing nodes
-│   ├── tools/                     # Search tools
-│   ├── utils/                     # Utility functions
-│   └── ...                        # Other modules
-├── MediaEngine/                   # Powerful multimodal understanding Agent
-│   ├── agent.py                   # Agent main logic
-│   ├── nodes/                     # Processing nodes
-│   ├── llms/                      # LLM interfaces
-│   ├── tools/                     # Search tools
-│   ├── utils/                     # Utility functions
-│   └── ...                        # Other modules
-├── InsightEngine/                 # Private database mining Agent
-│   ├── agent.py                   # Agent main logic
-│   ├── llms/                      # LLM interface wrapper
-│   │   └── base.py                # Unified OpenAI-compatible client
-│   ├── nodes/                     # Processing nodes
-│   │   ├── base_node.py           # Base node class
-│   │   ├── formatting_node.py     # Formatting node
-│   │   ├── report_structure_node.py # Report structure node
-│   │   ├── search_node.py         # Search node
-│   │   └── summary_node.py        # Summary node
-│   ├── tools/                     # Database query and analysis tools
-│   │   ├── keyword_optimizer.py   # Qwen keyword optimization middleware
-│   │   ├── search.py              # Database operation toolkit
-│   │   └── sentiment_analyzer.py  # Sentiment analysis integration tool
-│   ├── state/                     # State management
-│   │   ├── __init__.py
-│   │   └── state.py               # Agent state definition
-│   ├── prompts/                   # Prompt templates
-│   │   ├── __init__.py
-│   │   └── prompts.py             # Various prompts
-│   └── utils/                     # Utility functions
-│       ├── __init__.py
-│       ├── config.py              # Configuration management
-│       └── text_processing.py     # Text processing tools
-├── ReportEngine/                  # Multi-round report generation Agent
-│   ├── agent.py                   # Agent main logic
-│   ├── llms/                      # LLM interfaces
-│   ├── nodes/                     # Report generation nodes
-│   │   ├── template_selection.py  # Template selection node
-│   │   └── html_generation.py     # HTML generation node
-│   ├── report_template/           # Report template library
-│   │   ├── 社会公共热点事件分析.md
-│   │   ├── 商业品牌舆情监测.md
-│   │   └── ...                    # More templates
-│   └── flask_interface.py         # Flask API interface
-├── ForumEngine/                   # Forum engine simple implementation
-│   ├── monitor.py                 # Log monitoring and forum management
-│   └── llm_host.py                # Forum host LLM module
-├── MindSpider/                    # Weibo crawler system
-│   ├── main.py                    # Crawler main program
-│   ├── config.py                  # Crawler configuration file
-│   ├── BroadTopicExtraction/      # Topic extraction module
-│   │   ├── database_manager.py    # Database manager
-│   │   ├── get_today_news.py      # Today's news fetching
-│   │   ├── main.py                # Topic extraction main program
-│   │   └── topic_extractor.py     # Topic extractor
-│   ├── DeepSentimentCrawling/     # Deep sentiment crawling
-│   │   ├── keyword_manager.py     # Keyword manager
-│   │   ├── main.py                # Deep crawling main program
-│   │   ├── MediaCrawler/          # Media crawler core
-│   │   └── platform_crawler.py    # Platform crawler management
-│   └── schema/                    # Database schema
-│       ├── db_manager.py          # Database manager
-│       ├── init_database.py       # Database initialization
-│       └── mindspider_tables.sql  # Database table structure
-├── SentimentAnalysisModel/        # Sentiment analysis model collection
-│   ├── WeiboSentiment_Finetuned/  # Fine-tuned BERT/GPT-2 models
-│   ├── WeiboMultilingualSentiment/# Multilingual sentiment analysis (recommended)
-│   ├── WeiboSentiment_SmallQwen/  # Small parameter Qwen3 fine-tuning
-│   └── WeiboSentiment_MachineLearning/ # Traditional machine learning methods
-├── SingleEngineApp/               # Individual Agent Streamlit applications
-│   ├── query_engine_streamlit_app.py
-│   ├── media_engine_streamlit_app.py
-│   └── insight_engine_streamlit_app.py
-├── templates/                     # Flask templates
-│   └── index.html                 # Main interface frontend
-├── static/                        # Static resources
-├── logs/                          # Runtime log directory
-├── final_reports/                 # Final generated HTML report files
-├── utils/                         # Common utility functions
-│   ├── forum_reader.py            # Agent forum communication
-│   └── retry_helper.py            # Network request retry mechanism tool
-├── app.py                         # Flask main application entry
-├── config.py                      # Global configuration file
-└── requirements.txt               # Python dependency list
+BettaFish/
+├── QueryEngine/                            # Domestic and international news breadth search Agent
+│   ├── agent.py                            # Agent main logic, coordinates search and analysis workflow
+│   ├── llms/                               # LLM interface wrapper
+│   ├── nodes/                              # Processing nodes: search, formatting, summarization, etc.
+│   ├── tools/                              # Domestic and international news search toolkit
+│   ├── utils/                              # Utility functions
+│   ├── state/                              # State management
+│   ├── prompts/                            # Prompt templates
+│   └── ...
+├── MediaEngine/                            # Powerful multimodal understanding Agent
+│   ├── agent.py                            # Agent main logic, handles video/image multimodal content
+│   ├── llms/                               # LLM interface wrapper
+│   ├── nodes/                              # Processing nodes: search, formatting, summarization, etc.
+│   ├── tools/                              # Multimodal search toolkit
+│   ├── utils/                              # Utility functions
+│   ├── state/                              # State management
+│   ├── prompts/                            # Prompt templates
+│   └── ...
+├── InsightEngine/                          # Private database mining Agent
+│   ├── agent.py                            # Agent main logic, coordinates database queries and analysis
+│   ├── llms/                               # LLM interface wrapper
+│   │   └── base.py                         # Unified OpenAI-compatible client
+│   ├── nodes/                              # Processing nodes: search, formatting, summarization, etc.
+│   │   ├── base_node.py                    # Base node class
+│   │   ├── search_node.py                  # Search node
+│   │   ├── formatting_node.py              # Formatting node
+│   │   ├── report_structure_node.py        # Report structure node
+│   │   └── summary_node.py                 # Summary node
+│   ├── tools/                              # Database query and analysis toolkit
+│   │   ├── keyword_optimizer.py            # Qwen keyword optimization middleware
+│   │   ├── search.py                       # Database operation toolkit (topic search, comment retrieval, etc.)
+│   │   └── sentiment_analyzer.py           # Sentiment analysis integration tool
+│   ├── utils/                              # Utility functions
+│   │   ├── config.py                       # Configuration management
+│   │   ├── db.py                           # SQLAlchemy async engine + read-only query wrapper
+│   │   └── text_processing.py              # Text processing utilities
+│   ├── state/                              # State management
+│   │   └── state.py                        # Agent state definition
+│   ├── prompts/                            # Prompt templates
+│   │   └── prompts.py                      # Various prompt templates
+│   └── __init__.py
+├── ReportEngine/                           # Multi-round report generation Agent
+│   ├── agent.py                            # Master orchestrator: template selection → layout → budget → chapter → render
+│   ├── flask_interface.py                  # Flask/SSE entry point, manages task queuing and streaming events
+│   ├── llms/                               # OpenAI-compatible LLM wrappers
+│   │   └── base.py                         # Unified streaming/retry client
+│   ├── core/                               # Core functionalities: template parsing, chapter storage, document stitching
+│   │   ├── template_parser.py              # Markdown template slicer and slug generator
+│   │   ├── chapter_storage.py              # Chapter run directory, manifest, and raw stream writer
+│   │   └── stitcher.py                     # Document IR stitcher, adds anchors/metadata
+│   ├── ir/                                 # Report Intermediate Representation (IR) contract & validation
+│   │   ├── schema.py                       # Block/mark schema constant definitions
+│   │   └── validator.py                    # Chapter JSON structure validator
+│   ├── nodes/                              # Full workflow reasoning nodes
+│   │   ├── base_node.py                    # Node base class + logging/state hooks
+│   │   ├── template_selection_node.py      # Template candidate collection and LLM selection
+│   │   ├── document_layout_node.py         # Title/TOC/theme designer
+│   │   ├── word_budget_node.py             # Word budget planning and chapter directive generation
+│   │   └── chapter_generation_node.py      # Chapter-level JSON generation + validation
+│   ├── prompts/                            # Prompt library and schema descriptions
+│   │   └── prompts.py                      # Template selection/layout/budget/chapter prompts
+│   ├── renderers/                          # IR renderers
+│   │   ├── html_renderer.py                # Document IR→interactive HTML
+│   │   ├── pdf_renderer.py                 # HTML→PDF export (WeasyPrint)
+│   │   ├── pdf_layout_optimizer.py         # PDF layout optimizer
+│   │   └── chart_to_svg.py                 # Chart to SVG conversion tool
+│   ├── state/                              # Task/metadata state models
+│   │   └── state.py                        # ReportState and serialization utilities
+│   ├── utils/                              # Configuration and helper utilities
+│   │   ├── config.py                       # Pydantic settings + printer helper
+│   │   ├── dependency_check.py             # Dependency checking tool
+│   │   ├── json_parser.py                  # JSON parsing utilities
+│   │   ├── chart_validator.py              # Chart validation tool
+│   │   └── chart_repair_api.py             # Chart repair API
+│   ├── report_template/                    # Markdown template library
+│   │   ├── 企业品牌声誉分析报告.md
+│   │   └── ...
+│   └── __init__.py
+├── ForumEngine/                            # Forum engine: Agent collaboration mechanism
+│   ├── monitor.py                          # Log monitoring and forum management core
+│   ├── llm_host.py                         # Forum moderator LLM module
+│   └── __init__.py
+├── MindSpider/                             # Social media crawler system
+│   ├── main.py                             # Crawler main program entry
+│   ├── config.py                           # Crawler configuration file
+│   ├── BroadTopicExtraction/               # Topic extraction module
+│   │   ├── main.py                         # Topic extraction main program
+│   │   ├── database_manager.py             # Database manager
+│   │   ├── get_today_news.py               # Today's news fetcher
+│   │   └── topic_extractor.py              # Topic extractor
+│   ├── DeepSentimentCrawling/              # Deep sentiment crawling module
+│   │   ├── main.py                         # Deep crawling main program
+│   │   ├── keyword_manager.py              # Keyword manager
+│   │   ├── platform_crawler.py             # Platform crawler manager
+│   │   └── MediaCrawler/                   # Media crawler core
+│   │       ├── main.py
+│   │       ├── config/                     # Platform configurations
+│   │       ├── media_platform/             # Platform crawler implementations
+│   │       └── ...
+│   └── schema/                             # Database schema definitions
+│       ├── db_manager.py                   # Database manager
+│       ├── init_database.py                # Database initialization script
+│       ├── mindspider_tables.sql           # Database table structure SQL
+│       ├── models_bigdata.py               # SQLAlchemy mappings for large-scale media opinion tables
+│       └── models_sa.py                    # ORM models for DailyTopic/Task extension tables
+├── SentimentAnalysisModel/                 # Sentiment analysis model collection
+│   ├── WeiboSentiment_Finetuned/           # Fine-tuned BERT/GPT-2 models
+│   │   ├── BertChinese-Lora/               # BERT Chinese LoRA fine-tuning
+│   │   │   ├── train.py
+│   │   │   ├── predict.py
+│   │   │   └── ...
+│   │   └── GPT2-Lora/                      # GPT-2 LoRA fine-tuning
+│   │       ├── train.py
+│   │       ├── predict.py
+│   │       └── ...
+│   ├── WeiboMultilingualSentiment/         # Multilingual sentiment analysis
+│   │   ├── train.py
+│   │   ├── predict.py
+│   │   └── ...
+│   ├── WeiboSentiment_SmallQwen/           # Small parameter Qwen3 fine-tuning
+│   │   ├── train.py
+│   │   ├── predict_universal.py
+│   │   └── ...
+│   └── WeiboSentiment_MachineLearning/     # Traditional machine learning methods
+│       ├── train.py
+│       ├── predict.py
+│       └── ...
+├── SingleEngineApp/                        # Individual Agent Streamlit applications
+│   ├── query_engine_streamlit_app.py       # QueryEngine standalone app
+│   ├── media_engine_streamlit_app.py       # MediaEngine standalone app
+│   └── insight_engine_streamlit_app.py     # InsightEngine standalone app
+├── query_engine_streamlit_reports/         # QueryEngine standalone app outputs
+├── media_engine_streamlit_reports/         # MediaEngine standalone app outputs
+├── insight_engine_streamlit_reports/       # InsightEngine standalone app outputs
+├── templates/                              # Flask frontend templates
+│   └── index.html                          # Main interface HTML
+├── static/                                 # Static resources
+│   ├── image/                              # Image resources
+│   │   └── ...
+│   ├── Partial README for PDF Exporting/   # PDF export dependency setup guide
+│   └── v2_report_example/                  # Report rendering examples
+│       └── report_all_blocks_demo/         # Full block types demo (HTML/PDF/MD)
+├── logs/                                   # Runtime log directory
+├── final_reports/                          # Final generated report files
+│   ├── ir/                                 # Report IR JSON files
+│   └── *.html                              # Final HTML reports
+├── utils/                                  # Common utility functions
+│   ├── forum_reader.py                     # Agent inter-communication forum tool
+│   ├── github_issues.py                    # Unified GitHub issue link generator and error formatter
+│   └── retry_helper.py                     # Network request retry mechanism utility
+├── tests/                                  # Unit tests and integration tests
+│   ├── run_tests.py                        # pytest entry script
+│   ├── test_monitor.py                     # ForumEngine monitoring unit tests
+│   ├── test_report_engine_sanitization.py  # ReportEngine security tests
+│   └── ...
+├── app.py                                  # Flask main application entry point
+├── config.py                               # Global configuration file
+├── .env.example                            # Environment variable example file
+├── docker-compose.yml                      # Docker multi-service orchestration config
+├── Dockerfile                              # Docker image build file
+├── requirements.txt                        # Python dependency list
+├── regenerate_latest_html.py               # Rebind latest chapters and render HTML
+├── regenerate_latest_md.py                 # Rebind latest chapters and render Markdown
+├── regenerate_latest_pdf.py                # PDF regeneration utility script
+├── report_engine_only.py                   # Report Engine CLI version
+├── README.md                               # Chinese documentation
+├── README-EN.md                            # English documentation
+├── CONTRIBUTING.md                         # Chinese contribution guide
+├── CONTRIBUTING-EN.md                      # English contribution guide
+└── LICENSE                                 # GPL-2.0 open source license
 ```
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Docker)
+
+### 1. Starting the Project
+
+**Run Command:** Execute the following command to start all services in the **background**:
+
+```bash
+docker compose up -d
+```
+
+> **Note: Slow image pull speed.** In the original `docker-compose.yml` file, we have provided alternative mirror image addresses as **comments** for you to replace with.
+
+### 2. Configuration Instructions
+
+#### Database Configuration (PostgreSQL)
+
+Configure the database connection information with the following parameters. The system also supports MySQL, so you can adjust the settings as needed:
+
+| Configuration Item | Value to Use | Description |
+| :--- | :--- | :--- |
+| `DB_HOST` | `db` | Database service name (as defined in `docker-compose.yml`) |
+| `DB_PORT` | `5432` | Default PostgreSQL port |
+| `DB_USER` | `bettafish` | Database username |
+| `DB_PASSWORD` | `bettafish` | Database password |
+| `DB_NAME` | `bettafish` | Database name |
+| **Others** | **Keep Default** | Please keep other parameters, such as database connection pool settings, at their default values. |
+
+### Large Language Model (LLM) Configuration
+
+All LLM calls use the OpenAI API interface standard. After you finish the database configuration, continue to configure **all LLM-related parameters** so the system can connect to your selected LLM service.
+
+Once you complete and save the configurations above, the system will be ready to run normally.
+
+## 🔧 Source Code Startup Guide
 
 > If you are new to building Agent systems, you can start with a very simple demo: [Deep Search Agent Demo](https://github.com/666ghj/DeepSearchAgent-Demo)
 
@@ -206,7 +325,7 @@ Weibo_PublicOpinion_AnalysisSystem/
 - **Operating System**: Windows, Linux, MacOS
 - **Python Version**: 3.9+
 - **Conda**: Anaconda or Miniconda
-- **Database**: MySQL (optional, you can choose our cloud database service)
+- **Database**: PostgreSQL (recommended) or MySQL
 - **Memory**: 2GB+ recommended
 
 ### 1. Create Environment
@@ -226,7 +345,13 @@ conda activate your_conda_name
 uv venv --python 3.11 # Create Python 3.11 environment
 ```
 
-### 2. Install Dependencies
+### 2. Install System Dependencies for PDF Export (Optional)
+
+This section contains detailed configuration instructions: [Configure the dependencies](./static/Partial%20README%20for%20PDF%20Exporting/README-EN.md)
+
+### 3. Install Dependencies
+
+> If Step 2 is skipped, the WeasyPrint library may not install correctly, and the PDF functionality may be unavailable.
 
 ```bash
 # Basic dependency installation
@@ -237,73 +362,53 @@ uv pip install -r requirements.txt
 # If you do not want to use the local sentiment analysis model (which has low computational requirements and defaults to the CPU version), you can comment out the 'Machine Learning' section in this file before executing the command.
 ```
 
-### 3. Install Playwright Browser Drivers
+### 4. Install Playwright Browser Drivers
 
 ```bash
 # Install browser drivers (for crawler functionality)
 playwright install chromium
 ```
 
-### 4. System Configuration
+### 5. Configure LLM and Database
 
-#### 4.1 Configure API Keys
+Copy the `.env.example` file in the project root directory and rename it to `.env`.
 
-Copy the `.env.example` file in the project root directory to `.env`
+Edit the `.env` file and fill in your API keys (you can also choose your own models and search proxies; see `.env.example` in the project root directory or `config.py` for details):
 
-Edit the `.env` file and fill in your API keys (you can also choose your own models and search proxies; see the `.env.example` file in the project root directory or the `config.py` file for details):
+```bash
+# ====================== Database Configuration ======================
+# Database host, e.g., localhost or 127.0.0.1
+DB_HOST=your_db_host
+# Database port number, postgresql default is 5432, mysql default is 3306
+DB_PORT=5432
+# Database username
+DB_USER=your_db_user
+# Database password
+DB_PASSWORD=your_db_password
+# Database name
+DB_NAME=your_db_name
+# Database character set, utf8mb4 is recommended for emoji compatibility
+DB_CHARSET=utf8mb4
+# Database type: postgresql or mysql
+DB_DIALECT=postgresql
+# Database initialization is not required, as it will be checked automatically upon executing app.py
 
-```python
-# MySQL Database Configuration
-DB_HOST = "localhost"
-DB_PORT = 3306
-DB_USER = "your_username"
-DB_PASSWORD = "your_password"
-DB_NAME = "your_db_name"
-DB_CHARSET = "utf8mb4"
-
-# LLM configuration
+# ====================== LLM Configuration ======================
 # You can switch each Engine's LLM provider as long as it follows the OpenAI-compatible request format
+# The configuration file provides recommended LLMs for each Agent. For initial deployment, please refer to the recommended settings first
 
 # Insight Agent
-INSIGHT_ENGINE_API_KEY = "your_api_key"
-INSIGHT_ENGINE_BASE_URL = "https://api.moonshot.cn/v1"
-INSIGHT_ENGINE_MODEL_NAME = "kimi-k2-0711-preview"
+INSIGHT_ENGINE_API_KEY=
+INSIGHT_ENGINE_BASE_URL=
+INSIGHT_ENGINE_MODEL_NAME=
+
 # Media Agent
 ...
 ```
-Recommended LLM API Provider: [Reasoning Era](https://aihubmix.com/?aff=8Ds9)
 
-#### 4.2 Database Initialization
+### 6. Launch System
 
-**Option 1: Use Local Database**
-
-> ~~The MindSpider crawler system and the public opinion system are independent of each other, so you need to configure `MindSpider\config.py`. Copy the `config.py.example` file in the `MindSpider` folder and rename it to `config.py`.~~
-> Configuration has been changed to be based on environment variables. Please copy the `.env.example` file in the project root directory to `.env` and fill in all configurations in it.
-
-```bash
-# Local MySQL database initialization
-cd MindSpider
-# Project initialization
-python main.py --setup
-
-```
-
-**Option 2: Use Cloud Database Service (Recommended)**
-
-We provide convenient cloud database service with 100,000+ daily real public opinion data, currently **free application**!
-
-- Real public opinion data, updated in real-time
-- Multi-dimensional tag classification
-- High-availability cloud service
-- Professional technical support
-
-**Contact us to apply for free cloud database access: 📧 670939375@qq.com**
-
-> To conduct a data compliance review and service upgrade, we are suspending new applications for the cloud database, effective October 1, 2025.
-
-### 5. Launch System
-
-#### 5.1 Complete System Launch (Recommended)
+#### 6.1 Complete System Launch (Recommended)
 
 ```bash
 # In project root directory, activate conda environment
@@ -324,13 +429,11 @@ python app.py
 
 > Note 1: After a run is terminated, the Streamlit app might not shut down correctly and may still be occupying the port. If this occurs, find the process that is holding the port and kill it.
 
-> Note 2: Data scraping needs to be performed as a separate operation. Please refer to the instructions in section 5.3.
-
-> Note 3: If page display issues occur during remote server deployment, see [PR#45](https://github.com/666ghj/BettaFish/pull/45)
+> Note 2: Data scraping needs to be performed as a separate operation. Please refer to the instructions in section 6.3.
 
 Visit http://localhost:5000 to use the complete system
 
-#### 5.2 Launch Individual Agents
+#### 6.2 Launch Individual Agents
 
 ```bash
 # Start QueryEngine
@@ -343,12 +446,12 @@ streamlit run SingleEngineApp/media_engine_streamlit_app.py --server.port 8502
 streamlit run SingleEngineApp/insight_engine_streamlit_app.py --server.port 8501
 ```
 
-#### 5.3 Crawler System Standalone Use
+#### 6.3 Crawler System Standalone Use
 
 This section has detailed configuration documentation: [MindSpider Usage Guide](./MindSpider/README.md)
 
 <div align="center">
-<img src="MindSpider\img\example.png" alt="banner" width="600">
+<img src="MindSpider/img/example.png" alt="banner" width="600">
 
 MindSpider Running Example
 </div>
@@ -372,6 +475,53 @@ python main.py --broad-topic --date 2024-01-20
 # Run deep crawling only
 python main.py --deep-sentiment --platforms xhs dy wb
 ```
+
+#### 6.4 Command-line Report Generation Tool
+
+This tool bypasses the execution phase of all three analysis engines, directly loads their most recent log files, and generates a consolidated report without requiring the Web interface (while also skipping incremental file-validation steps). It will also generate a Markdown copy after the PDF by default (toggle via CLI flag). It is typically used when rapid retries are needed due to unsatisfactory report outputs, or when debugging the Report Engine.
+
+```bash
+# Basic usage (automatically extract topic from filename)
+python report_engine_only.py
+
+# Specify report topic
+python report_engine_only.py --query "Civil Engineering Industry Analysis"
+
+# Skip PDF generation (even if system supports it)
+python report_engine_only.py --skip-pdf
+
+# Skip Markdown generation
+python report_engine_only.py --skip-markdown
+
+# Show verbose logging
+python report_engine_only.py --verbose
+
+# Show help information
+python report_engine_only.py --help
+```
+
+**Features:**
+
+1. **Automatic Dependency Check**: The program automatically checks system dependencies required for PDF generation and provides installation instructions if missing
+2. **Get Latest Files**: Automatically retrieves the latest analysis reports from three engine directories (`insight_engine_streamlit_reports`, `media_engine_streamlit_reports`, `query_engine_streamlit_reports`)
+3. **File Confirmation**: Displays all selected file names, paths, and modification times, waiting for user confirmation (default input `y` to continue, input `n` to exit)
+4. **Direct Report Generation**: Skips file addition verification and directly calls Report Engine to generate comprehensive reports
+5. **Automatic File Saving**:
+   - HTML reports saved to `final_reports/` directory
+   - PDF reports (if dependencies available) saved to `final_reports/pdf/` directory
+   - Markdown reports (disable with `--skip-markdown`) saved to `final_reports/md/` directory
+   - File naming format: `final_report_{topic}_{timestamp}.html/pdf/md`
+
+**Notes:**
+
+- Ensure at least one of the three engine directories contains `.md` report files
+- The command-line tool is independent of the Web interface and does not interfere with each other
+- PDF generation requires system dependencies, see "Install PDF Export System Dependencies" section above
+
+**Quickly re-render the latest outputs:**
+
+- `regenerate_latest_html.py` / `regenerate_latest_md.py`: Re-stitch the latest chapter JSON from `CHAPTER_OUTPUT_DIR` into a Document IR and render to HTML or Markdown directly.
+- `regenerate_latest_pdf.py`: Read the newest IR under `final_reports/ir` and re-export a PDF with SVG vector charts.
 
 ## ⚙️ Advanced Configuration (Deprecated: Configuration has been unified to the `.env` file in the project root directory, and other sub-agents automatically inherit the root directory configuration)
 
@@ -420,16 +570,14 @@ The system supports any LLM provider that follows the OpenAI request format. You
 >```python
 >from openai import OpenAI
 >
->client = OpenAI(api_key="your_api_key",
->                base_url="https://api.siliconflow.cn/v1")
+>client = OpenAI(api_key="your_api_key", 
+>                base_url="https://inferera.com/v1")
 >
 >response = client.chat.completions.create(
->    model="Qwen/Qwen2.5-72B-Instruct",
+>    model="gpt-4o-mini",
 >    messages=[
->        {
->            'role': 'user',
->            'content': "What new opportunities will reasoning models bring to the market?"
->        }
+>        {'role': 'user', 
+>         'content': "What new opportunities will reasoning models bring to the market?"}
 >    ],
 >)
 >
@@ -547,30 +695,17 @@ Create new templates in the `ReportEngine/report_template/` directory, and our A
 
 We welcome all forms of contributions!
 
-### How to Contribute
-
-1. **Fork the project** to your GitHub account
-2. **Create Feature branch**: `git checkout -b feature/AmazingFeature`
-3. **Commit changes**: `git commit -m 'Add some AmazingFeature'`
-4. **Push to branch**: `git push origin feature/AmazingFeature`
-5. **Open Pull Request**
-
-### Development Standards
-
-- Code follows PEP8 standards
-- Commit messages use clear Chinese/English descriptions
-- New features need corresponding test cases
-- Update related documentation
+**Please read the following contribution guidelines:**  
+- [CONTRIBUTING-EN.md](./CONTRIBUTING-EN.md)
 
 ## 🦖 Next Development Plan
 
-The system has currently completed only the first two steps of the "three-step approach": requirement input -> detailed analysis. The missing step is prediction, and directly handing this over to LLM lacks persuasiveness.
+The system has now completed the final prediction step! Visit 【MiroFish - Predict Everything】: https://github.com/666ghj/MiroFish
 
 <div align="center">
+<img src="static/image/MiroFish_logo_compressed.jpeg" alt="banner" width="800">
 <img src="static/image/banner_compressed.png" alt="banner" width="800">
 </div>
-
-Currently, after a long period of crawling and collection, we have accumulated massive data on topic popularity trends over time, trending events, and other change patterns across the entire network. We now have the conditions to develop prediction models. Our team will apply our technical reserves in time series models, graph neural networks, multimodal fusion, and other prediction model technologies to achieve truly data-driven public opinion prediction functionality.
 
 ## ⚠️ Disclaimer
 
@@ -612,13 +747,15 @@ This project is licensed under the [GPL-2.0 License](LICENSE). Please see the LI
 
 ### Get Help
 
-- **Project Homepage**: [GitHub Repository](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem)
-- **Issue Reporting**: [Issues Page](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/issues)
-- **Feature Requests**: [Discussions Page](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/discussions)
+  FAQ: https://github.com/666ghj/BettaFish/issues/700
+
+- **Project Homepage**: [GitHub Repository](https://github.com/666ghj/BettaFish)
+- **Issue Reporting**: [Issues Page](https://github.com/666ghj/BettaFish/issues)
+- **Feature Requests**: [Discussions Page](https://github.com/666ghj/BettaFish/discussions)
 
 ### Contact Information
 
-- 📧 **Email**: 670939375@qq.com
+- 📧 **Email**: baifu.guohj@gmail.com
 
 ### Business Cooperation
 
@@ -631,15 +768,22 @@ This project is licensed under the [GPL-2.0 License](LICENSE). Please see the LI
 
 Thanks to these excellent contributors:
 
-[![Contributors](https://contrib.rocks/image?repo=666ghj/Weibo_PublicOpinion_AnalysisSystem)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=666ghj/BettaFish)](https://github.com/666ghj/BettaFish/graphs/contributors)
+
+## 🌟 Join Our Official Community
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%20to%20Our%20QQ%20Group!&fontSize=40&fontAlignY=35&desc=Scan%20to%20Join%20Our%20Community&descAlignY=55" alt="Welcome to Our QQ Group!" style="width:60%; max-width:900px; display:block; margin:0 auto;">
+  <img src="static/image/QQ_Light_Horizenal.png" alt="BettaFish QQ Group QR Code" style="width:60%; max-width:360px; display:block; margin:20px auto 0;">
+</div>
 
 ## 📈 Project Statistics
 
-<a href="https://www.star-history.com/#666ghj/BettaFish&type=date&legend=top-left">
+<a href="https://github.com/666ghj/BettaFish">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=666ghj/BettaFish&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=666ghj/BettaFish&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=666ghj/BettaFish&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="static/image/star-history-dark.svg" />
+   <source media="(prefers-color-scheme: light)" srcset="static/image/star-history-light.svg" />
+   <img alt="BettaFish Star History Chart" src="static/image/star-history-light.svg" />
  </picture>
 </a>
 
